@@ -17,7 +17,7 @@ function ExampleUseReducerTodoApp() {
 
   return (
     <div id="ExampleUseReducerTodoApp">
-      <h1>Example using useReducer Todo App</h1>
+      <h1 style={{color: 'red'}}>Example using useReducer Todo App</h1>
       <input
         type="text"
         ref={inputJobRef}

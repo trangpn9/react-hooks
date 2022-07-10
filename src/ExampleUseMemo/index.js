@@ -27,7 +27,7 @@ function ExampleUseMemo() {
 
   return (
     <div id="ExampleUseMemo">
-      <h1>Example using useMemo</h1>
+      <h1 style={{color: 'red'}}>Example using useMemo</h1>
       <input
         ref={productNameRef}
         placeholder="Enter product name"

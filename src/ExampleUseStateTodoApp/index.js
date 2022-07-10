@@ -23,7 +23,7 @@ function ExampleUseStateTodoApp() {
 
   return (
     <div id="ExampleUseStateTodoApp">
-      <h1>Example using useState Todo App</h1>
+      <h1 style={{color: 'red'}}>Example using useState Todo App</h1>
       <input
         type="text"
         ref={inputJobRef}
