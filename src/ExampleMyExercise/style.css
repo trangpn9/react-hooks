@@ -1,0 +1,23 @@
+.itemExercise {
+  display: flow-root;
+  border-bottom: 1px solid #777777;
+}
+.itemExercise .titleExercise {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  clear: both;
+}
+.itemExercise .timeExercise {
+  color: #FFCC21;
+  font-size: 18px;
+  font-weight: 400;
+  float: right;
+}
+.itemExercise .kcalExercise {
+  color: #FFCC21;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 3px 0;
+}

@@ -49,7 +49,7 @@ function ExampleTwoWayBinding() {
 
     setCheckboxChecked((pre) => {
       if (handleIsCheckedCheckbox(id)) {
-        newCheckbox = checkboxChecked.filter((item) => item != id);
+        newCheckbox = checkboxChecked.filter((item) => item !== id);
       } else {
         newCheckbox = [...pre, id];
       }

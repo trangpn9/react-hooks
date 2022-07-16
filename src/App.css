@@ -1,4 +1,4 @@
-* { 
+* {
   margin: 0;
   padding: 0;
 }
@@ -7,3 +7,48 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+
+/* begin style title chart */
+.titleSection {
+  clear: both;
+  display: flex;
+  padding: 10px 15px;
+}
+.titleSection .mainTitle {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  word-break: break-word;
+  float: left;
+  width: 95px;
+  align-self: center
+}
+.titleSection .subTitle {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  align-self: center
+}
+
+/* end style title chart */
+
+/* begin style button on chart */
+.btnCus {
+  background-color: #ffffff;
+  color: #ffcc21;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 5px 20px;
+  border-radius: 11px;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-top: 15px;
+  border: none;
+}
+.btnCus:hover,
+.btnCus.active {
+  background-color: #ffcc21;
+  color: #ffffff;
+}
+.btnCus:focus {outline:0;}
+/* end style button on chart */
