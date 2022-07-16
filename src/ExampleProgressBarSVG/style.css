@@ -1,0 +1,11 @@
+svg.circleProgress {
+  filter: drop-shadow(0px 0px 6px #FC7400);
+}
+
+svg.circleProgress circle {
+  transition: all 1.2s; 
+}
+
+svg.circleProgress text{
+  filter: drop-shadow(0px 0px 6px #FCA500);
+}
